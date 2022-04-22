@@ -11,6 +11,7 @@ public class Server {
             serverSocket = new ServerSocket(port);
         } catch (Exception e) {
             e.printStackTrace();
+
         }
     }
 
